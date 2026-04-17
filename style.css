@@ -22,12 +22,12 @@ body{
     border-radius:10px;
     color:hsl(0, 0%, 100%);  
     padding:40px;
-    width: 23vw;
+    width: 380px;
     background-color: #1F1F1F;
 }
 .card img{
     margin-bottom:30px;
-    width: 5vw;
+    width: 90px;
     border-radius: 50%;
 }
 .title{
@@ -53,8 +53,7 @@ body{
     align-items: center;
     width:100%;
 }
-.link{
-    text-align: center;
+.buttons button{
     border: 0;
     background-color: #333333;
     color:white;
@@ -65,12 +64,12 @@ body{
     font-weight: 700;
     transition: .3s ease;
 }
-.link:hover{
+.buttons button:hover{
     cursor:pointer;
     background-color:#C7E75E;
     color:#2F4300;
 }
-.link:focus{
+.buttons button:focus{
     cursor:pointer;
     background-color:#C7E75E;
     color:#2F4300;
